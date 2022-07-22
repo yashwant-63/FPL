@@ -5,6 +5,8 @@ The initial version is a very basic dashboard which has two features:
 1) Future gameweek point prediction
 2) Player comparison
 
+The app is hosted on [streamlit](https://yashwant-63-fpl-fpl-app-klvq2s.streamlitapp.com/)
+
 ## Future gameweek point prediction
 I built models using linear regression and XGBoost to figure out the players who are likely to score the most points in the upcoming gameweeks. The tool gives you an option to select the model and player of your choice, after which it returns the predicted points for the selected player. It also outputs the top 10 players who are likely to score the most fpl points. The current version is static, meaning the points predicted for each player is constant as their statistics are constant. I plan to change this in a future version wherein you can input the stats for a player (e.g - xg, shots on target, touches, etc) and the tool would give you an estimate of fpl points based on these stats. 
 
